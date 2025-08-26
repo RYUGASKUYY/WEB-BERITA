@@ -1,2 +1,15 @@
-# WEB-BERITA
-WEB LATIHAN PAK APIK
+<html>
+<head><title>Membuat Frame Menu</title></head>
+<frameset rows="100,*,0">
+<frame name="top" scrolling="no" noresize
+target="contents" src="MENU ATAS INDEX 2.HTML">
+ <frameset cols="270,*">
+<frame name="contents" target="main"
+src="MENU KIRI INDEX 2.HTML">
+<frame name="main" src="frame.html"></frameset>
+<body>
+<p>Browser anda tidak mendukung frame.</p>
+</body>
+</noframes>
+</frameset>
+</html>
